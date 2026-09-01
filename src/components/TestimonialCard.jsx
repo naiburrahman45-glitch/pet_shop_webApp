@@ -1,0 +1,2 @@
+import { Star } from "lucide-react";
+export default function TestimonialCard({item}){return <article className="testimonial-card"><div className="stars">{Array.from({length:item.rating}).map((_,i)=><Star key={i} size={16} fill="currentColor"/>)}</div><p>“{item.review}”</p><div className="person"><img src={item.image} alt={item.name}/><div><strong>{item.name}</strong><span>{item.pet}</span></div></div></article>;}

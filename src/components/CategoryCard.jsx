@@ -1,0 +1,2 @@
+import { ArrowUpRight } from "lucide-react"; import { Link } from "react-router-dom";
+export default function CategoryCard({category}){return <article className="category-card"><div className="category-image"><img src={category.image} alt={category.name}/><span>{category.icon}</span></div><div className="category-content"><h3>{category.name}</h3><p>{category.description}</p><Link to={`/shop?category=${encodeURIComponent(category.name)}`}>Explore <ArrowUpRight size={16}/></Link></div></article>;}

@@ -1,0 +1,2 @@
+import SectionTitle from "../components/SectionTitle"; import ServiceCard from "../components/ServiceCard"; import {services} from "../data/services";
+export default function Services(){return <section className="page-section"><div className="container"><SectionTitle eyebrow="WHAT WE DO" title="Pet care, thoughtfully delivered" description="A modern pet-care experience that brings products, grooming, guidance and veterinary support together."/><div className="service-grid service-page">{services.map(s=><ServiceCard key={s.title} service={s}/>)}</div></div></section>;}

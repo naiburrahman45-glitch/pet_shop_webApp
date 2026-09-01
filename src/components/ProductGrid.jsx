@@ -1,0 +1,2 @@
+import ProductCard from "./ProductCard";
+export default function ProductGrid({products,empty="No products found."}){if(!products.length)return <div className="empty-state grid-empty"><div className="empty-icon">🐾</div><h3>{empty}</h3><p>Try changing your search or filters.</p></div>; return <div className="product-grid">{products.map(p=><ProductCard key={p.id} product={p}/>)}</div>;}

@@ -1,0 +1,5 @@
+export const testimonials = [
+  { name:"Emily Johnson", pet:"Golden Retriever parent", rating:5, review:"Pet Solution has everything I need for my dog, and their veterinary service is excellent.", image:"https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" },
+  { name:"Michael Chen", pet:"Cat parent", rating:5, review:"The products feel carefully selected, the team is knowledgeable, and the experience is genuinely welcoming.", image:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" },
+  { name:"Sophia Williams", pet:"Cocker Spaniel parent", rating:5, review:"I love having shopping and professional pet care in one trusted place.", image:"https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80" }
+];

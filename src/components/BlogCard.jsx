@@ -1,0 +1,2 @@
+import { ArrowUpRight } from "lucide-react"; import { Link } from "react-router-dom";
+export default function BlogCard({post}){return <article className="blog-card"><Link to="/blog" className="blog-image"><img src={post.image} alt={post.title}/></Link><div className="blog-body"><span>{post.category}</span><h3>{post.title}</h3><p>{post.description}</p><Link to="/blog">Read More <ArrowUpRight size={16}/></Link></div></article>;}

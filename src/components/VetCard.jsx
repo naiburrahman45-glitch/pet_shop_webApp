@@ -1,0 +1,2 @@
+import { Award, Clock3 } from "lucide-react"; import Button from "./Button";
+export default function VetCard({vet}){return <article className="vet-card"><img src={vet.image} alt={vet.name}/><div className="vet-info"><span className="eyebrow">VETERINARY SPECIALIST</span><h3>{vet.name}</h3><p>{vet.qualification}</p><div className="vet-meta"><span><Award/> {vet.experience}</span><span><Clock3/> {vet.time}</span></div><small>Specialization: {vet.specialization}</small><Button to="/appointment">Book Appointment</Button></div></article>;}

@@ -1,0 +1,2 @@
+import SectionTitle from "../components/SectionTitle"; import CategoryCard from "../components/CategoryCard"; import {categories} from "../data/categories";
+export default function Categories(){return <section className="page-section"><div className="container"><SectionTitle eyebrow="CATEGORIES" title="Shop by pet & purpose" description="Explore thoughtfully organized collections for every kind of companion."/><div className="category-grid category-page">{categories.map(c=><CategoryCard key={c.name} category={c}/>)}</div></div></section>;}

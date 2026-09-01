@@ -1,0 +1,8 @@
+export const blogPosts = [
+  { id:"b1", category:"Dog Health", title:"How to Keep Your Dog Healthy", description:"Simple daily habits that support energy, healthy weight and long-term wellbeing.", image:"https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=900&q=80" },
+  { id:"b2", category:"Cat Nutrition", title:"Best Food for Cats", description:"What to consider when choosing a balanced diet for your cat.", image:"https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=80" },
+  { id:"b3", category:"Preventive Care", title:"Importance of Vaccination", description:"Why preventive vaccination is a core part of responsible pet care.", image:"https://images.unsplash.com/photo-1599443015574-b5f09d9fb5b2?auto=format&fit=crop&w=900&q=80" },
+  { id:"b4", category:"Grooming", title:"Pet Grooming Tips", description:"A practical grooming routine that supports skin, coat and comfort.", image:"https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=80" },
+  { id:"b5", category:"Vet Care", title:"Signs Your Pet Needs a Vet", description:"Common changes in behavior and health that deserve professional attention.", image:"https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" },
+  { id:"b6", category:"Pet Nutrition", title:"How to Choose the Right Pet Food", description:"A straightforward guide to ingredients, life stage and individual needs.", image:"https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=80" }
+];

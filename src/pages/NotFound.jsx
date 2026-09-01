@@ -1,0 +1,2 @@
+import { Link } from "react-router-dom"; import { PawPrint } from "lucide-react";
+export default function NotFound(){return <section className="page-section"><div className="container not-found"><PawPrint size={60}/><span className="eyebrow">404</span><h1>Looks like this page wandered off.</h1><p>The page you're looking for doesn't exist.</p><Link className="btn btn-primary" to="/">Back Home</Link></div></section>;}

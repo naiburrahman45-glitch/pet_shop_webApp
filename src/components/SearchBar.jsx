@@ -1,0 +1,2 @@
+import { Search } from "lucide-react";
+export default function SearchBar({value,onChange,placeholder="Search products..."}){return <label className="search-box"><Search size={19}/><input value={value} onChange={e=>onChange(e.target.value)} placeholder={placeholder} aria-label={placeholder}/></label>;}

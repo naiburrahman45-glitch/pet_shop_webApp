@@ -1,0 +1,2 @@
+import SectionTitle from "../components/SectionTitle"; import BlogCard from "../components/BlogCard"; import {blogPosts} from "../data/blog";
+export default function Blog(){return <section className="page-section"><div className="container"><SectionTitle eyebrow="PET CARE JOURNAL" title="Useful ideas for better pet parenting" description="Educational sample content for the Pet Solution frontend."/><div className="blog-grid blog-page">{blogPosts.map(p=><BlogCard key={p.id} post={p}/>)}</div></div></section>;}

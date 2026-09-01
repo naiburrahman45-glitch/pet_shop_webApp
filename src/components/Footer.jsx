@@ -1,0 +1,8 @@
+import { Link } from "react-router-dom";
+import { Facebook, Instagram, Youtube, Music2, Phone, Mail, MapPin, Clock } from "lucide-react";
+export default function Footer(){return <footer className="footer"><div className="container footer-grid">
+  <div><Link to="/" className="brand footer-brand"><span className="brand-mark">P</span><span><b>Pet</b> Solution<small>Pet Shop & Vet Care</small></span></Link><p className="footer-copy">Quality products, expert veterinary care, and compassionate service for every companion.</p><div className="socials"><a href="#!" aria-label="Facebook"><Facebook/></a><a href="#!" aria-label="Instagram"><Instagram/></a><a href="#!" aria-label="YouTube"><Youtube/></a><a href="#!" aria-label="TikTok"><Music2/></a></div></div>
+  <div><h4>Quick Links</h4><Link to="/">Home</Link><Link to="/shop">Shop</Link><Link to="/vet-care">Vet & Care</Link><Link to="/services">Services</Link><Link to="/about">About</Link><Link to="/contact">Contact</Link></div>
+  <div><h4>Customer Support</h4><a href="#!">FAQs</a><a href="#!">Shipping</a><a href="#!">Returns</a><a href="#!">Privacy Policy</a><a href="#!">Terms & Conditions</a></div>
+  <div><h4>Contact</h4><p><Phone size={16}/> +880 1700-000000</p><p><Mail size={16}/> hello@petsolution.com</p><p><MapPin size={16}/> Rajshahi, Bangladesh</p><p><Clock size={16}/> Sat–Thu · 9:00 AM–8:00 PM</p></div>
+</div><div className="footer-bottom"><div className="container">© 2026 Pet Solution. All Rights Reserved.<span>Made for happier pets.</span></div></div></footer>;}
